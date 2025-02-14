@@ -50,5 +50,3 @@ variable "reader3_name"{
 variable "zone_id"{
   default = "Z03252761DK06JVLCBOE8"
 }
-
-variable "instancetype" {}
