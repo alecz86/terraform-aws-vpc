@@ -7,10 +7,6 @@ variable "instancetype" {
      default = "t3.micro"
 }
 
-variable "region" {
-  default = "us-east-2"
-}
-
 variable "identifier"{
   default = "static-member-1"
 
@@ -31,7 +27,6 @@ variable "db_username"{
   default = "master"
 
 }
-
 
 variable "instance_class" {
   default = "db.r6g.large"
@@ -54,14 +49,6 @@ variable "reader3_name"{
 }
 variable "zone_id"{
   default = "Z03252761DK06JVLCBOE8"
-}
-
-variable "region" {
-    description = "AWS region"
-}
-
-variable "region" {
-    description = "AWS region"
 }
 
 variable "instancetype" {}
